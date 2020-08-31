@@ -1,0 +1,162 @@
+body {
+    background-color:lavender;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 350px;
+    width: 850px;
+    margin: auto;
+    background-color: #bb99ff;
+    box-sizing: border-box;
+    border-radius: .5%;
+ }
+button {
+    background-color:lavender;
+    height:30px;
+    border: .5px solid lightgrey;
+    border-radius: 2px;
+    position: relative;
+    top: 300px;
+    left: 600px;
+    
+}
+
+.profilepic {
+    background-color: #66b3ff;
+    background: url(https://i.pinimg.com/736x/d0/a3/0a/d0a30a25e8d2eb2e8aed36c86d2f953c.jpg);
+    
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    top: 195px;
+    border: solid 1px black;
+    border-radius: .5%;
+    left: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.name {
+    background-color:transparent;
+    height: 70px;
+    width: 290px;
+    position: relative;
+    left: 225px;
+    top:70px;
+    
+    font-size: 20px;
+
+}
+
+nav {
+    background-color: white;
+    height: 65px;
+    width:850px;
+    position: absolute;
+    top:359px;
+    box-sizing: border-box;
+    border-radius: .5%;
+    border-color:lightgrey;
+
+}
+
+ul {
+    text-align:center;
+    list-style-type: none;
+    margin: 15px;
+    padding: 15px;
+    word-spacing: 10px;
+}
+li {
+    display: inline;
+}
+li::after {
+    content:"|";
+}
+
+.message {
+    
+    top:328px;
+    left:735px;
+    position: absolute;
+    text-align:right;
+    list-style-type: none;
+   
+}
+
+
+.aboutme {
+
+    font:12px;
+   
+    background-color: rgb(115, 223, 209);
+    display: block;
+    height: 400px;
+    width: 328px;
+    position: relative;
+    top: 125px;
+    float: left;
+    box-sizing: border-box;
+    border-radius: .5%;
+    border-color:lightgrey;
+}
+.container2 {
+    height: 400px;
+    width: 850px;
+    margin:auto;
+    box-sizing: border-box;
+    border-radius: .5%;
+    border-color:lightgrey;
+}
+
+.box1 {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    background-color: pink; 
+   z-index: 10;
+   top: 300px;
+   left: 10px;
+   border: solid 	#14b5eb 1px;
+}
+
+.box2 {
+    height: 100px;
+    width: 400px;
+    position: relative;
+    background-color: #14b5eb;
+   z-index: 10;
+   top: 90px;
+   left: 360px;
+   border: solid pink 1px;
+}
+
+
+
+.box3 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    background-color: #14b5eb;
+   z-index: 10;
+   top: -70px;
+   left: 350px;
+   border: solid pink 1px;
+}
+
+.feed {
+    background-color: rgb(115, 223, 209);
+    display: block;
+    height: 380px;
+    width: 512px;
+    position: relative;
+    top: 125px;
+    left: 338px;
+    box-sizing: border-box;
+    border-radius: .5%;
+    border-color:lightgrey;
+    
+}
